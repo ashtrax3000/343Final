@@ -1,7 +1,3 @@
-# wgu-c195-software-2
-java project for WGU C195 - Software II Advanced Java Concepts
-
-This is my full project - passed on the first attempt - for C195.
 
 ### Java Skills
 - Using JDBC - java database connectivity driver - to utilize a database with java
@@ -16,9 +12,3 @@ This is my full project - passed on the first attempt - for C195.
 - Using SQL statements to simplify the application
   - Using more advanced MySQL functions like NOW(), MONTH, BETWEEN, ETC
   - error checking and validation
-- Lambdas 
-- Alerts 
-
-If you are taking the class feel free to check out the structure of my application and my approach to the project.
-
-I also created a separate web app to populate the database - [checkout the site](https://populator-c195.herokuapp.com/) - and read the docs
