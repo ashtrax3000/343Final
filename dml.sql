@@ -19,7 +19,7 @@ create table appointments (
         begintime timestamp not null,
         endtime timestamp not null,
         remindertype varchar(30) not null,
-        reminderdate timestamp not null,
+        remindertime timestamp not null,
         constraint enum_remindertype check (remindertype in ('email', 'telephone','clock')),
         constraint pk_appt primary key (appid),
         constraint fk_users_appt foreign key (userid) references users (userid)
